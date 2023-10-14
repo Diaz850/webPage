@@ -1,4 +1,4 @@
-h1 {
+head {
     font-family: "Arial Black", Gadget, sans-serif;
     font-size: 26px;
     letter-spacing: -1.2px;
@@ -12,11 +12,10 @@ h1 {
 }
 
 body {
-    background-color: limegreen;
-
+    background-color: lightgreen;
 }
 
-h1 {
+head {
     text-align: center;
 }
 

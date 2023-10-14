@@ -6,3 +6,4 @@ getName();
 function greetUser(name){
 document.write('Welcome' + name + '!')
 }
+greetUser(getName);
