@@ -1,24 +1,26 @@
-head {
-    font-family: "Arial Black", Gadget, sans-serif;
-    font-size: 26px;
-    letter-spacing: -1.2px;
-    word-spacing: 2px;
-    color: #000000;
-    font-weight: 700;
-    text-decoration: underline solid rgb(68, 68, 68);
-    font-style: normal;
-    font-variant: normal;
-    text-transform: capitalize;
-}
-
-body {
-    background-color: lightgreen;
-}
-
-head {
+<body> {
+    font-family: Arial, sans-serif;
     text-align: center;
+    background-color: #f0f0f0;
 }
 
-body {
-    border: 6px solid #1C6EA4;
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+input,
+button {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#output {
+    margin: 20px;
+    font-weight: bold;
+    color: #0077b6;
 }

@@ -1,9 +1,8 @@
-function getName(){let userName = prompt('What is your name?');
-return userName
+'strict';
+let userAge = prompt('How old are you?')
+if (userAge >= 21) {
+    document.write('Welcome to the page!');
 }
-getName();
-
-function greetUser(name){
-document.write('Welcome' + name + '!')
+else {
+    alert('Sorry! Come back at a later time');
 }
-greetUser(getName);
