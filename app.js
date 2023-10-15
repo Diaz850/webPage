@@ -1,4 +1,6 @@
 'use strict';
+console.log('Welcome to the console page!')
+
 let userAge = prompt('How old are you?')
 if (userAge >= 21) {
     document.write('Welcome to the page!');
@@ -6,3 +8,4 @@ if (userAge >= 21) {
 else {
     alert('Sorry! Come back at a later time');
 }
+
